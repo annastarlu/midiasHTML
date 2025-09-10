@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desecolar Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align:center;">Conheça as melhores praias do Brasil</h1>
+    </header>
+
+    <main>
+        
+        <p id="introducao">Somos uma agência especializada em viagens ao litoral brasileiro.</p>
+        <p class="destaque">Conheça o nosso serviço entrando em contato via formulário!</p>
+        <p class="destaque">As melhores praias com os melhores preços, você encontra aqui</p>
+
+        <h2>Imagens</h2>
+        <img src="imagem1.jpeg" alt="Imagem 1" width="150" height="150">
+        <img src="imagem2.jpeg" alt="Imagem 2" width="200">
+        <img src="imagem3.jpeg" alt="Imagem 3">
+
+        <h2>Vídeo</h2>
+        <video src="video.mp4" controls></video>
+        
+        <h2>Áudio</h2>
+        <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+         Seu navegador não suporta áudio.
+        </audio>
+
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Links Diversos</h2>
+        <ul>
+            <li><a href="https://www.google.com">Ir para o Google (texto)</a></li>
+            <li><a href="https://www.google.com" target="_blank">Ir para o Google (nova aba)</a></li>
+            <li>
+                <a href="https://www.google.com">
+                    <img src="imagem1.jpeg" alt="Imagem que leva ao Google" width="200">
+                </a>
+            </li>
+        </ul>
+
+        <h2>Listas</h2>
+        <h3>Lista Ordenada para se cadastrar e viajar em nossa agência </h3>
+        <ol>
+            <li>Passo - Deixe seu contato em nosso formulário</li>
+            <li>Passo - Fique de olho em seu telefone</li>
+            <li>Passo - Prepare-se para viajar pelas melhores praias do Brasil</li>
+        </ol>
+        <h3>Lista Não Ordenada de itens para não esquecer de levar na viagem</h3>
+        <ul>
+            <li>Protetor Solar</li>
+            <li>Roupas de Banho</li>
+            <li>Oculos de Sol</li>
+        </ul>
+
+        <h2>Tabela das Praias mais conhecidas por região</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sudeste</th>
+                    <th>Nordeste</th>
+                    <th>Sul</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Copacabana</td>
+                    <td>Pipa</td>
+                    <td>Praia de Torres</td>
+                </tr>
+                <tr>
+                    <td>Guarujá</td>
+                    <td>Porto de Galinhas</td>
+                    <td>Praia das Rosas</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="container-destaque">
+            <h3>Curiosidades</h3>
+            <p>O litoral nordeste vai do rio Parnaíba até o Recôncavo Baiano, somando mais de 3.000 km.<br> Essa área é caracterizada por recifes de corais e dunas que se movem com o vento quando perdem sua cobertura vegetal.</p>
+            <p class="paragrafo_div">No extremo sul do litoral brasileiro, perto da fronteira com o Uruguai, está a Praia do Cassino, conhecida por ser uma das mais longas do mundo, com 245 km de extensão.</p>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
