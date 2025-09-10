@@ -1,14 +1,14 @@
 .destaque {
-    background-color: rgb(211, 211, 12); /* Define a cor de fundo como amarelo claro */
-    padding: 10px; /* Adiciona um espaçamento interno para melhor leitura */
-    border: 1px solid #ccc; /* Adiciona uma borda sutil */
+    background-color: rgb(211, 211, 12); 
+    padding: 10px; 
+    border: 1px solid #ccc; 
 }
 
-/* Seção 10: Estilizando a div que agrupa os parágrafos */
+
 .container-destaque {
-    margin-top: 20px; /* Adiciona um espaço acima da div */
-    padding: 15px; /* Adiciona um espaçamento interno na div */
-    background-color: #f0b9b9; /* Define uma cor de fundo cinza claro para a div */
+    margin-top: 20px; 
+    padding: 15px; 
+    background-color: #f0b9b9; 
 }
 
 .paragrafo_div{
